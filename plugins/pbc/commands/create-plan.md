@@ -390,3 +390,7 @@ Based on the codebase research, I understand we need to add rate limiting...
 
 [Interactive process continues...]
 ```
+
+## Next Step
+
+When the plan is finalized, suggest the user run `/implement-plan` with the path to the plan file.

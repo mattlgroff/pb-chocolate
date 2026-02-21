@@ -291,3 +291,7 @@ Present the final state:
 - **Artifacts**: Always save review prompts and fix packets to `thoughts/reviews/` for audit trail
 - **Safety Gate**: Never inline heredoc content into `opencode run` commands — always use file redirection
 - **Loop Limit**: Maximum 3 review rounds to prevent infinite loops
+
+## Next Step
+
+When the review is clean, suggest the user open a PR. After the PR is up and reviewers leave comments, they can run `/address-pr-comments` to triage and address the feedback.
